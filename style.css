@@ -663,7 +663,7 @@
     }
     
     .card-content {
-        padding: 20px;
+        padding: 10px;
     }
   }
   
@@ -688,6 +688,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
     max-width: 400px;
     width: 100%;
     color: #fff;
@@ -1081,6 +1082,7 @@
     .contact-form, .contact-info {
       width: 100%;
       padding: 0;
+      display: contents;
     }
   
     .contact-form h2 {
@@ -1123,6 +1125,7 @@
     .lastc {
       margin: 0;
       padding: 20px;
+      border-radius: 10px;
     }
   }
   
