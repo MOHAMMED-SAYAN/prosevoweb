@@ -151,18 +151,25 @@
   .head1{
     margin-top: -40px;
   }
+  .menubar{
+    display: none;
+  }
                                                                                                                                
   @media (max-width: 423px) {
     .navbar {
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-start;
       padding: 1rem;
     }
+    .menubar{
+      display: block;
+    }
   
-    .nav-links {
+    .nav-links{
       flex-direction: column;
       width: 100%;
       display: none;
+      
     }
   
     .nav-links.active {
@@ -205,6 +212,7 @@
     .hero{
       height: 800px;
     }
+
   }
   
   
